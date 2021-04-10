@@ -87,3 +87,11 @@ btn.addEventListener('click',()=>{
     ctx.fillStyle = 'rgba(255,255,255,1)';
     ctx.fillRect(0,0,canvas.width,canvas.height);
 })
+
+window.addEventListener('touchstart',()=>{
+    drawing = true;
+})
+
+window.addEventListener('touchend',()=>{
+    drawing = false;
+})
