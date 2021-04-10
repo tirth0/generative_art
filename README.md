@@ -1,1 +1,3 @@
-# generative_art
+# Generative Art using Javascript
+
+### Session 1 : Particle Systems 
